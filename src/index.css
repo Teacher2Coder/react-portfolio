@@ -1,0 +1,128 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#main-content {
+    margin-top: 20px;
+}
+
+/* Styles for the nav-bar */
+.nav-item {
+    margin: 5px;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+
+/* Styles for the Home Page */
+.home-cards {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#featured-projects {
+    margin-top: 5%;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature-card {
+    width: 30%;
+}
+
+/* Styles for About Page */
+#about-card {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#about-header {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.professional {
+    max-width: 50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#about-footer {
+    text-align: center;
+}
+
+
+/* Styles for Contact Page */
+.contact-card {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: grid;
+}
+
+#send-message {
+    margin: 0 auto;
+}
+
+#error-message {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Styles for Resume page */
+#resume-card {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Styles for application footer */
+#footer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.footer-link {
+    margin: 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 983px) {
+    .feature-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-card {
+        width: 75%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .feature-card {
+        width: 90%;
+    }
+}

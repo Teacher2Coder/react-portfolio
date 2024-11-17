@@ -17,11 +17,9 @@ export default function ResumePage() {
                     <header className='card-header'>Profile</header>
                     <div className='card-body'>
                         <p>
-                        Highly energetic facilitator who strives to meet the needs of all students so they can grow to their fullest potential. 
-                        Hard working, passionate, educator who focuses on building positive, constructive relationships with students and faculty. 
-                        Proficient in organizing and assessing students’ objectives to properly implement assigned curriculum. 
-                        Excels at prioritizing tasks and finding creative ways to challenge students and athletes. Well acclimated in balancing academic responsibilities with athletic commitments. 
-                        Strong interprofessional collaboration and communication skills.
+                        Full-Stack web developer fully equipped to collaborate on the development of various web applications. 
+                        Capable of leveraging front-end technologies (HTML, CSS, JavaScript, React) as well as back-end technologies (Node.js, SQL, Sequelize, MongoDB, Mongoose). 
+                        Proficient in Agile Web Development, working on projects in a team setting, and delivering high-quality, responsive, and scalable web applications.
                         </p>
                     </div>
                 </div>
@@ -29,12 +27,13 @@ export default function ResumePage() {
                     <header className='card-header'>Skills and Competencies</header>
                     <div className='card-body'>
                         <ul className="resume-list">
+                            <li>Problem Solving</li>
+                            <li>Small group leadership</li>
                             <li>Effective Communication</li>
-                            <li>Creating a healthy learning atmosphere</li>
                             <li>Proactively carrying out assigned duties</li>
-                            <li>Uploading and maintaining Hudl profiles</li>
-                            <li>Designing and implementing SAC Programs</li>
-                            <li>Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+                            <li>Creating a healthy collaborative atmosphere</li>
+                            <li>JavaScript, jQuery, Node.js, SQL, MongoDB, React</li>
+                            <li>Maintaining and contributing to GitHub Repositories</li>
                             <li>Google Applications (Docs, Sheets, Slides, App Scripts)</li>
                         </ul>
                     </div>
@@ -50,16 +49,16 @@ export default function ResumePage() {
                                 <p>
                                     Teacher responsibilities included teaching Academic Government at the senior level and Street Law at the Junior and Senior level, creating curriculum and activities for Street Law, 
                                     and participating in Student ARD meetings. Coaching responsibilities included coaching running backs and sub-varsity offensive play calling, and assistant track coach specializing in hurdles. 
-                                    Produced weekly self assessment data during the football season and actively participated in all Strength and Conditioning activities across all male sports and assisting with laundry duties.
+                                    Produced weekly self assessment data during the football season and actively participated in all Strength and Conditioning activities across all male sports on campus.
                                 </p>
                                 <h5>Responsibilities / experience includes:</h5>
                                 <ul className='resume-list'>
-                                    <li>Sub-varsity play calling</li>
                                     <li>Managing Team Hudl Profiles</li>
+                                    <li>Sub-Varsity offensive coordination</li>
                                     <li>Coordination between teachers & coaches</li>
                                     <li>Designing and implementing SAC programs</li>
                                     <li>Academic planning and coordination in PLCs</li>
-                                    <li>Hands on work with freshman students and athletes</li>
+                                    <li>Leveraging technology in the Classroom and Coach's Office</li>
                                 </ul>
                             </div>
                         </div>
@@ -112,7 +111,9 @@ export default function ResumePage() {
                         <div className='card-body'>
                             <ul className="resume-list">
                                 <li>Bachelor of Science (B.S.) - Exercise Physiology: University of Mary Hardin - Baylor</li>
-                                <li>Coding Bootcamp - The University of Texas at Austin (Pending)</li>
+                                <li>Coding Bootcamp - The University of Texas at Austin (Expected Completion Date: December 2024)</li>
+                                <li>CLF-CO2 - AWS Certified Cloud Practicioner (Expected Completion Date: December 2024)</li>
+                                <li>AZ-900 - Microsoft Certified: Azure Fundementals (Expected Completion Date: December 2024)</li>
                             </ul>
                         </div>
                     </div>

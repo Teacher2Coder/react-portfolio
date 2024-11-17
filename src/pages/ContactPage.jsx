@@ -8,11 +8,14 @@ export default function ContactPage() {
     const [currentPage, setCurrentPage] = useOutletContext('Contact');
 
     setCurrentPage('Contact');
-    
+
+    document.title = 'Ethan Owens - ' + currentPage;
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+
 
     const handleInputChange = (event) => {
         const { target } = event;

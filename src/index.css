@@ -129,15 +129,32 @@ body {
 
 .repo-link {
     margin: 0 auto;
+    max-height: 40px;
+    min-height: 40px;
 }
 
 /* Styles for Resume page */
+#download {
+    margin-bottom: 10px;
+}
+
 #resume-card {
     width: 75%;
     text-align: center;
     margin: 0 auto;
 }
 
+.resume-cards {
+    margin-bottom: 10px;
+}
+
+.resume-list {
+    text-align: left;
+}
+
+.job-card {
+    margin-bottom: 5px;
+}
 
 /* Styles for application footer */
 #footer-card {

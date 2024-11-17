@@ -6,6 +6,8 @@ export default function AboutPage() {
 
     setCurrentPage('About');
 
+    document.title = 'Ethan Owens - ' + currentPage;
+
     return (
         <div className="card" id="about-card">
             <header className="card-header" id="about-header">All about me!!!</header>

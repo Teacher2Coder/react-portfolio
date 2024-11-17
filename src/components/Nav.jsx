@@ -9,9 +9,9 @@ export default function Nav({ currentPage, handlePageChange }) {
                 <a
                   href="/"
                   onClick={() => handlePageChange('Home')}
-                  className={currentPage === 'Home' ? 'btn btn-secondary' : 'btn btn-outline-light'}
+                  className="navbar-brand text-light"
                 >
-                  Home
+                  Ethan Owens
                 </a>
               </li>
               <li className="navigation-item">

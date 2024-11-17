@@ -5,6 +5,14 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+#navigation {
+    min-height: 70px;
+}
+
+.navigation-item {
+    margin-left: 10px;
+}
+
 #main-content {
     margin-top: 20px;
 }
@@ -87,6 +95,42 @@ body {
     margin-top: 15px;
 }
 
+
+/* Styles for Portfolio */
+.portfolio-header {
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 30%;
+    margin: 5px;
+}
+
+.portfolio-img {
+    max-width: 95%;
+    max-height: 95%;
+    min-height: 95%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.project-info {
+    display: grid;
+}
+
+.repo-link {
+    margin: 0 auto;
+}
+
 /* Styles for Resume page */
 #resume-card {
     width: 75%;
@@ -118,6 +162,18 @@ body {
     .feature-card {
         width: 75%;
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    .project {
+        width: 90%;
     }
 }
 

@@ -65,9 +65,13 @@ body {
 }
 
 .professional {
-    max-width: 50%;
-    border: 1px solid grey;
+    width: 25%;
+    border: 1px solid lightgrey;
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.about-text {
     margin-bottom: 10px;
 }
 
@@ -186,6 +190,9 @@ body {
     .project {
         width: 45%;
     }
+    .professional {
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 464px) {
@@ -197,5 +204,8 @@ body {
 @media screen and (max-width: 425px) {
     .feature-card {
         width: 90%;
+    }
+    .professional {
+        width: 60%;
     }
 }

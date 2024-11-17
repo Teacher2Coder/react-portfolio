@@ -52,7 +52,7 @@ export default function ResumePage() {
                                     and participating in Student ARD meetings. Coaching responsibilities included coaching running backs and sub-varsity offensive play calling, and assistant track coach specializing in hurdles. 
                                     Produced weekly self assessment data during the football season and actively participated in all Strength and Conditioning activities across all male sports and assisting with laundry duties.
                                 </p>
-                                <h5>Responsibilities / expoerience includes:</h5>
+                                <h5>Responsibilities / experience includes:</h5>
                                 <ul className='resume-list'>
                                     <li>Sub-varsity play calling</li>
                                     <li>Managing Team Hudl Profiles</li>
@@ -73,7 +73,7 @@ export default function ResumePage() {
                                     Coaching responsibilities included coaching wide receivers and sub-varsity offensive play calling, assistant powerlifting coach, and assistant track coach specializing in hurdles and high jump. 
                                     Produced highlights weekly and periodically for athletes and participated in community outreach, actively participating in all Strength and Conditioning activities across all male sports and assisting with laundry duties.
                                 </p>
-                                <h5>Responsibilities / expoerience includes:</h5>
+                                <h5>Responsibilities / experience includes:</h5>
                                 <ul className='resume-list'>
                                     <li>Sub-varsity play calling</li>
                                     <li>Managing Team Hudl Profiles</li>
@@ -94,7 +94,7 @@ export default function ResumePage() {
                                     Worked with athletes in multiple sports with different goals and workout plans. Coordination and communication between the head strength coach and the interns occur within staff meetings and regular one-on-one meetings with members of the program. 
                                     Internship is to be concluded with a project that includes the creation of a complete and heavily detailed workout plan for a six-week period. Internship expected to be concluded May 2020 with the accumulation of 150 work hours.
                                 </p>
-                                <h5>Responsibilities / expoerience includes:</h5>
+                                <h5>Responsibilities / experience includes:</h5>
                                 <ul className='resume-list'>
                                     <li>Motivating athletes</li>
                                     <li>Facilities management</li>

@@ -27,6 +27,8 @@ On the Contact page, the user can fill out a form and send a message to me. As f
 On the Portfolio page, the user can browse some of my porjects that I have gotten to work on. Each project includes a link to the GitHub repository associated with it.
 
 On the Resume page, the user can observe my resume and some of the information that is on my resume as well as a button so that the user can download a .docx copy of my resume.
+
+At the bottom of the page, the user can click on links to my GitHub, my LinkedIn, and my X account.
  
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

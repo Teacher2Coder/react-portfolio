@@ -14,7 +14,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ResumePage from "./pages/ResumePage";
-import ThanksPage from "./pages/Thanks";
+import ThanksPage from "./pages/ThanksPage";
 
 // Create client side router
 const router = createBrowserRouter([

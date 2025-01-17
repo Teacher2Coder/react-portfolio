@@ -15,21 +15,42 @@ export default function PortfolioPage() {
         <header className="card-header portfolio-header">
           Check out my projects!
         </header>
-        <div className="card-body project-list">
-          {projects.map((project) => (
-            <div key={project.projectName} className="card project">
-              <header className="card-header portfolio-header">
-                {project.projectName}
-              </header>
-              <div className="card-body project-info">
-                <img className="portfolio-img" src={project.image}></img>
-                <p>{project.description}</p>
-                <a className="btn btn-primary repo-link" href={project.repo}>
-                  Link to Repo
-                </a>
+        <div className="card-body">
+          <p style={{ textAlign: 'center' }}>
+            Note: Some of the web service applications will take some time to load.
+            I leveraged the free platforms to deploy these pages. Give around 60 to 90 seconds to load!
+          </p>
+          <div className="project-list">
+            {projects.map((project) => (
+              <div key={project.projectName} className="card project">
+                <header className="card-header portfolio-header">
+                  {project.projectName}
+                </header>
+                <div className="card-body project-info">
+                  <img className="portfolio-img" src={project.image}></img>
+                  <p style={{textAlign: 'center'}}>{project.description}</p>
+                  <h5 style={{textAlign: 'center'}}>Application Type:</h5>
+                  <p style={{textAlign: 'center'}}>{project.type}</p>
+                  <h5 style={{textAlign: 'center'}}>Technologies used:</h5>
+                  <p style={{textAlign: 'center'}}>{project.technologies}</p>
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    <a className="btn btn-primary" href={project.repo}>
+                      Check out the Repo!
+                    </a>
+                    {project.deployed ? (
+                      <a
+                        className="btn btn-primary"
+                        href={project.url}
+                        style={{ marginTop: "10px" }}
+                      >
+                        Deployed App
+                      </a>
+                    ) : null}
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

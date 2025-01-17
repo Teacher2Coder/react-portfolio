@@ -29,6 +29,10 @@ export default function HomePage() {
           Check out some of my featured projects!
         </header>
         <div className="card-body">
+          <p>
+            Note: Some of the web service applications will take some time to load.
+            I leveraged the free platforms to deploy these pages. Give around 60 to 90 seconds to load!
+          </p>
           <div className="feature-list">
             {projects.map((project) =>
               project.featured ? (
@@ -38,9 +42,20 @@ export default function HomePage() {
                     <div className="containter">
                       <img className="portfolio-img" src={project.image}></img>
                       <p>{project.description}</p>
-                      <a className="btn btn-primary" href={project.repo}>
-                        Check out the Repo!
-                      </a>
+                      <h5>Application Type:</h5>
+                      <p>{project.type}</p>
+                      <h5>Technologies used:</h5>
+                      <p>{project.technologies}</p>
+                      <div style={{ display: 'flex', flexDirection: 'column' }}>
+                        <a className="btn btn-primary" href={project.repo}>
+                          Check out the Repo!
+                        </a>
+                        {project.deployed ? (
+                          <a className="btn btn-primary" href={project.url} style={{ marginTop: '10px' }}>
+                            Deployed App
+                          </a>
+                        ) : null}
+                      </div>
                     </div>
                   </div>
                 </div>

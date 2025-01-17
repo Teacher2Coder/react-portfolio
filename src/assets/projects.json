@@ -1,0 +1,74 @@
+[
+  {
+    "projectName": "GamerBud",
+    "image": "/gamer-bud.png",
+    "description": "This app allows gamers to find new friends to play various video games accross various platforms!",
+    "repo": "https://github.com/Teacher2Coder/gamer-bud",
+    "deployedPage": "",
+    "featured": true
+  },
+  {
+    "projectName": "DMs & DMs",
+    "image": "/dms.png",
+    "description": "This app allows users to create and share ideas for characters, stories, rules and quests with other Dungeon Masters around the world!",
+    "repo": "https://github.com/Teacher2Coder/dms-and-dms",
+    "deployedPage": "",
+    "featured": true
+  },
+  {
+    "projectName": "CMS Style Blog",
+    "image": "/cms-blog.png",
+    "description": "This application allows users to create, edit and delte their own blog posts while also reading other blog posts written by other users!",
+    "repo": "https://github.com/Teacher2Coder/cms-blog",
+    "deployedPage": "",
+    "featured": false
+  },
+  {
+    "projectName": "Marvel Movie Database",
+    "image": "/mcu.png",
+    "description": "This app allows users to see information about the Marvel Movies, store their favorite movies in a list and watch trailers!",
+    "repo": "https://github.com/Teacher2Coder/project-1",
+    "deployedPage": "",
+    "featured": true
+  },
+  {
+    "projectName": "E-Commerce API",
+    "image": "/e-commerce.png",
+    "description": "This app is the back end for a potential E-Commerce website, allowing a database to create, read, update and delete product information.",
+    "repo": "https://github.com/Teacher2Coder/e-commerce",
+    "deployedPage": "",
+    "featured": false
+  },
+  {
+    "projectName": "SVG Logo Generator",
+    "image": "/logo-gen.png",
+    "description": "This app allows users to create simple logos in a .svg file by answering a few questions in the command line!",
+    "repo": "https://github.com/Teacher2Coder/logo-generator",
+    "deployedPage": "",
+    "featured": false
+  },
+  {
+    "projectName": "Social Media API",
+    "image": "/social-media-api.png",
+    "description": "This app is the backend for a potential Social Media Website. It utilizes MongoDB and allows users to create, read, update and delete information!",
+    "repo": "https://github.com/Teacher2Coder/social-media-api",
+    "deployedPage": "",
+    "featured": false
+  },
+  {
+    "projectName": "README.md Generator",
+    "image": "/questions.png",
+    "description": "This app allows a user to create a README.md file with relative ease by just answering a few questions in the command line!",
+    "repo": "https://github.com/Teacher2Coder/README-generator",
+    "deployedPage": "",
+    "featured": false
+  },
+  {
+    "projectName": "Weather Tracker",
+    "image": "/weather.png",
+    "description": "This app allows users to get weather data for any city that a user decides to search for from a third party API!",
+    "repo": "https://github.com/Teacher2Coder/weather-tracker",
+    "deployedPage": "",
+    "featured": false
+  }
+]

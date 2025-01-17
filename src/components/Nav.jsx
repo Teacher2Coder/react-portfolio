@@ -1,7 +1,7 @@
 export default function Nav({ currentPage, handlePageChange }) {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
-    <nav className="navbar navbar-expand bg-primary" id="navigation">
+    <nav className="navbar fixed-top navbar-expand bg-primary" id="navigation">
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">

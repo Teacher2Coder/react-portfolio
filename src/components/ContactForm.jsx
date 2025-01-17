@@ -30,9 +30,7 @@ const ContactForm = () => {
         message: message,
       })
       .then((response) => {
-        if (response.ok) {
-          window.location = '/thanks'
-        }
+        console.log(response)
       })
       .catch((error) => console.log(error));
   };
@@ -52,6 +50,8 @@ const ContactForm = () => {
     }
 
     sendEmail(name, email, message);
+
+    window.location = '/thanks'
   };
 
   return (

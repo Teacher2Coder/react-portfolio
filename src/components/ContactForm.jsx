@@ -24,7 +24,7 @@ const ContactForm = () => {
 
   const sendEmail = (name, email, message) => {
     axios
-      .post("https://formsubmit.co/ajax/ethan.owens4@gmail.com", {
+      .post("https://formsubmit.co/ajax/51a24ea3709ac8afaaa76d16a00b4a9d", {
         name: name,
         email: email,
         message: message,

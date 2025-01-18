@@ -5,12 +5,13 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-#navigation {
-    min-height: 70px;
+.navigation-item {
+    color: white;
+    text-decoration: none;
 }
 
-.navigation-item {
-    margin-left: 10px;
+.navigation-item:hover {
+    color: black;
 }
 
 #main-content {

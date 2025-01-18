@@ -13,7 +13,7 @@ export default function PortfolioPage() {
     <div>
       <div className="card">
         <header className="card-header portfolio-header">
-          Check out my projects!
+          <h2>Check out my projects!</h2>
         </header>
         <div className="card-body">
           <p style={{ textAlign: 'center' }}>
@@ -24,15 +24,15 @@ export default function PortfolioPage() {
             {projects.map((project) => (
               <div key={project.projectName} className="card project">
                 <header className="card-header portfolio-header">
-                  {project.projectName}
+                  <h4>{project.projectName}</h4>
                 </header>
                 <div className="card-body project-info">
                   <img className="portfolio-img" src={project.image}></img>
-                  <p style={{textAlign: 'center'}}>{project.description}</p>
-                  <h5 style={{textAlign: 'center'}}>Application Type:</h5>
-                  <p style={{textAlign: 'center'}}>{project.type}</p>
-                  <h5 style={{textAlign: 'center'}}>Technologies used:</h5>
-                  <p style={{textAlign: 'center'}}>{project.technologies}</p>
+                  <p style={{ textAlign: 'center' }}>{project.description}</p>
+                  <h5 style={{ textAlign: 'center' }}>Application Type:</h5>
+                  <p style={{ textAlign: 'center' }}>{project.type}</p>
+                  <h5 style={{ textAlign: 'center' }}>Technologies used:</h5>
+                  <p style={{ textAlign: 'center' }}>{project.technologies}</p>
                   <div style={{ display: "flex", flexDirection: "column" }}>
                     <a className="btn btn-primary" href={project.repo}>
                       Check out the Repo!

@@ -9,7 +9,9 @@ export default function ResumePage() {
 
   return (
     <div className="card" id="resume-card">
-      <header className="card-header">My Resume</header>
+      <header className="card-header">
+        <h2>My Resume</h2>
+      </header>
       <div className="card-body">
         <a
           href="E.Owens_Resume.docx"
@@ -20,7 +22,9 @@ export default function ResumePage() {
           Click here to download a copy of my resume!
         </a>
         <div className="card resume-cards">
-          <header className="card-header">Profile</header>
+          <header className="card-header">
+            <h4>Profile</h4>
+          </header>
           <div className="card-body">
             <p>
               Full-Stack web developer fully equipped to collaborate on the
@@ -34,7 +38,9 @@ export default function ResumePage() {
           </div>
         </div>
         <div className="card resume-cards">
-          <header className="card-header">Skills and Competencies</header>
+          <header className="card-header">
+            <h4>Skills & Competencies</h4>
+          </header>
           <div className="card-body">
             <ul className="resume-list">
               <li>Problem Solving</li>
@@ -49,11 +55,13 @@ export default function ResumePage() {
           </div>
         </div>
         <div className="card resume-cards">
-          <header className="card-header">Relevant Work Experience</header>
+          <header className="card-header">
+            <h4>Relevant Work Experience</h4>
+          </header>
           <div className="card-body">
             <div className="card job-card">
               <header className="card-header">
-                Austin ISD - James Bowie High School
+                <h5>Austin ISD - James Bowie High School</h5>
               </header>
               <div className="card-body">
                 <p className="job-title">Social Studies Teacher / Coach</p>
@@ -70,7 +78,7 @@ export default function ResumePage() {
                   Strength and Conditioning activities across all male sports on
                   campus.
                 </p>
-                <h5>Responsibilities / experience includes:</h5>
+                <h6>Responsibilities / experience includes:</h6>
                 <ul className="resume-list">
                   <li>Managing Team Hudl Profiles</li>
                   <li>Sub-Varsity offensive coordination</li>
@@ -83,7 +91,7 @@ export default function ResumePage() {
             </div>
             <div className="card job-card">
               <header className="card-header">
-                Hays Consolidated ISD - Lehman High School
+                <h5>Hays Consolidated ISD - Lehman High School</h5>
               </header>
               <div className="card-body">
                 <p className="job-title">Social Studies Teacher / Coach</p>
@@ -100,7 +108,7 @@ export default function ResumePage() {
                   participating in all Strength and Conditioning activities
                   across all male sports and assisting with laundry duties.
                 </p>
-                <h5>Responsibilities / experience includes:</h5>
+                <h6>Responsibilities / experience includes:</h6>
                 <ul className="resume-list">
                   <li>Sub-varsity play calling</li>
                   <li>Managing Team Hudl Profiles</li>
@@ -132,7 +140,7 @@ export default function ResumePage() {
                   period. Internship expected to be concluded May 2020 with the
                   accumulation of 150 work hours.
                 </p>
-                <h5>Responsibilities / experience includes:</h5>
+                <h6>Responsibilities / experience includes:</h6>
                 <ul className="resume-list">
                   <li>Motivating athletes</li>
                   <li>Facilities management</li>

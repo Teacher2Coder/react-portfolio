@@ -61,7 +61,7 @@ const ContactForm = () => {
           className="card-header card-title"
           style={{ textAlign: "center" }}
         >
-          Contact me!
+          <h2>Contact me!</h2>
         </header>
         <div className="card-body">
           <form onSubmit={handleFormSubmit}>

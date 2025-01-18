@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <div className="card" id="about-card">
       <header className="card-header" id="about-header">
-        All about me!!!
+        <h2>All about me!!!</h2>
       </header>
       <div className="card-body about-content">
         <img className="professional" src="./professional.JPG"></img>

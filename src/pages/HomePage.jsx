@@ -13,7 +13,7 @@ export default function HomePage() {
     <div>
       <div className="card home-cards">
         <header className="card-header">
-          Welcome to my Portfolio powered by React!
+          <h1>Welcome to my Portfolio powered by React!</h1>
         </header>
         <div className="card-body">
           <p>
@@ -26,7 +26,7 @@ export default function HomePage() {
       </div>
       <div className="card home-cards" id="featured-projects">
         <header className="card-header">
-          Check out some of my featured projects!
+          <h2>Featured Projects</h2>
         </header>
         <div className="card-body">
           <p>
@@ -37,7 +37,9 @@ export default function HomePage() {
             {projects.map((project) =>
               project.featured ? (
                 <div key={project.projectName} className="card feature-card">
-                  <header className="card-header">{project.projectName}</header>
+                  <header className="card-header">
+                    <h4>{project.projectName}</h4>
+                  </header>
                   <div className="card-body">
                     <div className="containter">
                       <img className="portfolio-img" src={project.image}></img>
@@ -45,7 +47,15 @@ export default function HomePage() {
                       <h5>Application Type:</h5>
                       <p>{project.type}</p>
                       <h5>Technologies used:</h5>
-                      <p>{project.technologies}</p>
+                      <ul style={{ textAlign: 'center', listStyle: 'none' }}>
+                        {
+                          project.technologies.map((tech) => (
+                            <li key={tech}>
+                              {tech}
+                            </li>
+                          ))
+                        }
+                      </ul>
                       <div style={{ display: 'flex', flexDirection: 'column' }}>
                         <a className="btn btn-primary" href={project.repo}>
                           Check out the Repo!

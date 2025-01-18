@@ -32,15 +32,9 @@ export default function PortfolioPage() {
                   <h5 style={{ textAlign: 'center' }}>Application Type:</h5>
                   <p style={{ textAlign: 'center' }}>{project.type}</p>
                   <h5 style={{ textAlign: 'center' }}>Technologies used:</h5>
-                  <ul style={{ textAlign: 'center', listStyle: 'none' }}>
-                    {
-                      project.technologies.map((tech) => (
-                        <li key={tech}>
-                          {tech}
-                        </li>
-                      ))
-                    }
-                  </ul>
+                  {project.technologies.map((tech) => (
+                    <p key={tech}>{tech}</p>
+                  ))}
                   <div style={{ display: "flex", flexDirection: "column" }}>
                     <a className="btn btn-primary" href={project.repo}>
                       Check out the Repo!

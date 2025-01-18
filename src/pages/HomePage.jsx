@@ -30,8 +30,9 @@ export default function HomePage() {
         </header>
         <div className="card-body">
           <p>
-            Note: Some of the web service applications will take some time to load.
-            I leveraged the free platforms to deploy these pages. Give around 60 to 90 seconds to load!
+            Note: Some of the web service applications will take some time to
+            load. I leveraged the free platforms to deploy these pages. Give
+            around 60 to 90 seconds to load!
           </p>
           <div className="feature-list">
             {projects.map((project) =>
@@ -47,21 +48,19 @@ export default function HomePage() {
                       <h5>Application Type:</h5>
                       <p>{project.type}</p>
                       <h5>Technologies used:</h5>
-                      <ul style={{ textAlign: 'center', listStyle: 'none' }}>
-                        {
-                          project.technologies.map((tech) => (
-                            <li key={tech}>
-                              {tech}
-                            </li>
-                          ))
-                        }
-                      </ul>
-                      <div style={{ display: 'flex', flexDirection: 'column' }}>
+                      {project.technologies.map((tech) => (
+                        <p key={tech}>{tech}</p>
+                      ))}
+                      <div style={{ display: "flex", flexDirection: "column" }}>
                         <a className="btn btn-primary" href={project.repo}>
                           Check out the Repo!
                         </a>
                         {project.deployed ? (
-                          <a className="btn btn-primary" href={project.url} style={{ marginTop: '10px' }}>
+                          <a
+                            className="btn btn-primary"
+                            href={project.url}
+                            style={{ marginTop: "10px" }}
+                          >
                             Deployed App
                           </a>
                         ) : null}

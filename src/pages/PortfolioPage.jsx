@@ -33,7 +33,7 @@ export default function PortfolioPage() {
                   <p style={{ textAlign: 'center' }}>{project.type}</p>
                   <h5 style={{ textAlign: 'center' }}>Technologies used:</h5>
                   {project.technologies.map((tech) => (
-                    <p key={tech}>{tech}</p>
+                    <p key={tech} style={{ textAlign: 'center' }}>{tech}</p>
                   ))}
                   <div style={{ display: "flex", flexDirection: "column" }}>
                     <a className="btn btn-primary" href={project.repo}>

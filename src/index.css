@@ -121,8 +121,8 @@ body {
 
 .portfolio-img {
     max-width: 95%;
-    max-height: 95%;
-    min-height: 95%;
+    max-height: 400px;
+    min-height: 200px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     margin: 0 auto;
@@ -130,7 +130,8 @@ body {
 }
 
 .project-info {
-    display: grid;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -206,6 +207,9 @@ body {
 
 @media screen and (max-width: 425px) {
     .feature-card {
+        width: 90%;
+    }
+    .home-cards {
         width: 90%;
     }
     .professional {

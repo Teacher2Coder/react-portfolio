@@ -215,4 +215,10 @@ body {
     .professional {
         width: 60%;
     }
+    #resume-card {
+        width: 90%;
+    }
+    .contact-card {
+        width: 90%;
+    }
 }

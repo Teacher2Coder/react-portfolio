@@ -160,8 +160,15 @@ body {
     text-align: left;
 }
 
+.work-experience {
+    display: flex;
+    flex-direction: row;
+}
+
 .job-card {
-    margin-bottom: 5px;
+    margin: 5px;
+    width: 75%
+
 }
 
 /* Styles for application footer */

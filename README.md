@@ -22,9 +22,9 @@ Upon page load, the user will be greated by a homepage with some text and links 
 
 On the About page, the user will see a little bit of information about myself.
 
-On the Contact page, the user can fill out a form and send a message to me. As for right now, the message doesn't go anywhere. (This will be updated soon!)
+On the Contact page, the user can fill out a form and send a message to me. Formsubmit.co handles the form and sends me your message!
 
-On the Portfolio page, the user can browse some of my porjects that I have gotten to work on. Each project includes a link to the GitHub repository associated with it.
+On the Portfolio page, the user can browse some of my projects that I have gotten to work on. Each project includes a link to the GitHub repository associated with it.
 
 On the Resume page, the user can observe my resume and some of the information that is on my resume as well as a button so that the user can download a .docx copy of my resume.
 
@@ -58,6 +58,12 @@ Send me any code snippits or suggestions to my email or through message on GitHu
  
 ## Tests
 No tests at this time!
+
+## Technologies used
+* [React](https://react.dev/)
+* [Express](https://expressjs.com/)
+* [Formsubmit.co](https://formsubmit.co/)
+
  
 ## Questions
 * GitHub: [@Teacher2Coder](https://www.github.com/Teacher2Coder)

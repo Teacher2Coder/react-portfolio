@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useOutletContext } from "react-router-dom";
 
 export default function AboutPage() {
@@ -6,6 +7,18 @@ export default function AboutPage() {
   setCurrentPage("About");
 
   document.title = "Ethan Owens - " + currentPage;
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://platform.linkedin.com/badges/js/profile.js";
+    script.async = true;
+    script.defer = true;
+
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <div className="card" id="about-card">
@@ -28,6 +41,21 @@ export default function AboutPage() {
           me into the Artificial Intellegence world so that I can help usher in
           the age of our A.I. Overlords!
         </p>
+        <div 
+          className="badge-base LI-profile-badge" 
+          data-locale="en_US" 
+          data-size="large" 
+          data-theme="light" 
+          data-type="HORIZONTAL" 
+          data-vanity="ethan-owens-717b16199" 
+          data-version="v1"
+        >
+          <a 
+            className="badge-base__link LI-simple-link" 
+            href="https://www.linkedin.com/in/ethan-owens-717b16199?trk=profile-badge"
+          >
+          </a>
+        </div>   
       </div>
       <footer className="card-footer" id="about-footer">
         Thank you for visiting my portfolio!

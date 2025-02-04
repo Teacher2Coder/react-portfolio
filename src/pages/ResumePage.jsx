@@ -58,7 +58,7 @@ export default function ResumePage() {
           <header className="card-header">
             <h4>Relevant Work Experience</h4>
           </header>
-          <div className="card-body">
+          <div className="card-body work-experience">
             <div className="card job-card">
               <header className="card-header">
                 <h5>Austin ISD - James Bowie High School</h5>
@@ -121,7 +121,7 @@ export default function ResumePage() {
             </div>
             <div className="card job-card">
               <header className="card-header">
-                University of Mary Hardin Baylor - Strength and Conditioning
+                <h5>University of Mary Hardin Baylor - Strength and Conditioning</h5>
               </header>
               <div className="card-body">
                 <p className="job-title">Strength and Conditioning Intern</p>
@@ -154,7 +154,9 @@ export default function ResumePage() {
           </div>
         </div>
         <div className="card resume-cards">
-          <header className="card-header">Education and Certifications</header>
+          <header className="card-header">
+            <h4>Education and Certifications</h4>
+          </header>
           <div className="card-body">
             <ul className="resume-list">
               <li>

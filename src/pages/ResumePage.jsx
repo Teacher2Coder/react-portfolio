@@ -1,7 +1,10 @@
 import { useOutletContext } from "react-router-dom";
+import experiences from '../assets/experience.json';
 
 export default function ResumePage() {
   const [currentPage, setCurrentPage] = useOutletContext("Resume");
+
+  console.log(experiences);
 
   setCurrentPage("Resume");
 
@@ -59,98 +62,25 @@ export default function ResumePage() {
             <h4>Relevant Work Experience</h4>
           </header>
           <div className="card-body work-experience">
-            <div className="card job-card">
-              <header className="card-header">
-                <h5>Austin ISD - James Bowie High School</h5>
-              </header>
-              <div className="card-body">
-                <p className="job-title">Social Studies Teacher / Coach</p>
-                <p>June 2022 - Present</p>
-                <p>
-                  Teacher responsibilities included teaching Academic Government
-                  at the senior level and Street Law at the Junior and Senior
-                  level, creating curriculum and activities for Street Law, and
-                  participating in Student ARD meetings. Coaching
-                  responsibilities included coaching running backs and
-                  sub-varsity offensive play calling, and assistant track coach
-                  specializing in hurdles. Produced weekly self assessment data
-                  during the football season and actively participated in all
-                  Strength and Conditioning activities across all male sports on
-                  campus.
-                </p>
-                <h6>Responsibilities / experience includes:</h6>
-                <ul className="resume-list">
-                  <li>Managing Team Hudl Profiles</li>
-                  <li>Sub-Varsity offensive coordination</li>
-                  <li>Coordination between teachers & coaches</li>
-                  <li>Designing and implementing SAC programs</li>
-                  <li>Academic planning and coordination in PLCs</li>
-                  <li> Leveraging technology in the Classroom and Coach's Office</li>
-                </ul>
+
+            {experiences.map((experience) => (
+              <div key={experience.company} className="card job-card">
+                <header className="card-header">
+                  <h5>{experience.company}</h5>
+                </header>
+                <div className="card-body">
+                  <p className="job-title">{experience.title}</p>
+                  <p>{experience.dates}</p>
+                  <p>{experience.description}</p>
+                  <h6>Responsibilities / experience includes:</h6>
+                  <ul className="resume-list">
+                    {experience.responsibilities.map((responsibility) => (
+                      <li key={responsibility}>{responsibility}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div className="card job-card">
-              <header className="card-header">
-                <h5>Hays Consolidated ISD - Lehman High School</h5>
-              </header>
-              <div className="card-body">
-                <p className="job-title">Social Studies Teacher / Coach</p>
-                <p>June 2020 - May 2022</p>
-                <p>
-                  Teacher responsibilities included teaching World Geography in
-                  the freshman level, creating and monitoring credit recovery
-                  activities, and actively participating in PLC activities.
-                  Coaching responsibilities included coaching wide receivers and
-                  sub-varsity offensive play calling, assistant powerlifting
-                  coach, and assistant track coach specializing in hurdles and
-                  high jump. Produced highlights weekly and periodically for
-                  athletes and participated in community outreach, actively
-                  participating in all Strength and Conditioning activities
-                  across all male sports and assisting with laundry duties.
-                </p>
-                <h6>Responsibilities / experience includes:</h6>
-                <ul className="resume-list">
-                  <li>Sub-varsity play calling</li>
-                  <li>Managing Team Hudl Profiles</li>
-                  <li>Coordination between teachers & coaches</li>
-                  <li>Designing and implementing SAC programs</li>
-                  <li>Academic planning and coordination in PLCs</li>
-                  <li>Hands on work with freshman students and athletes</li>
-                </ul>
-              </div>
-            </div>
-            <div className="card job-card">
-              <header className="card-header">
-                <h5>University of Mary Hardin Baylor - Strength and Conditioning</h5>
-              </header>
-              <div className="card-body">
-                <p className="job-title">Strength and Conditioning Intern</p>
-                <p>January 2020 - May 2020</p>
-                <p>
-                  Strength and Conditioning Intern responsible for assisting
-                  collegiate athletes with both in-season and off-season
-                  workouts, cleaning and maintaining the weight room, setting up
-                  equipment for workouts. Worked with athletes in multiple
-                  sports with different goals and workout plans. Coordination
-                  and communication between the head strength coach and the
-                  interns occur within staff meetings and regular one-on-one
-                  meetings with members of the program. Internship is to be
-                  concluded with a project that includes the creation of a
-                  complete and heavily detailed workout plan for a six-week
-                  period. Internship expected to be concluded May 2020 with the
-                  accumulation of 150 work hours.
-                </p>
-                <h6>Responsibilities / experience includes:</h6>
-                <ul className="resume-list">
-                  <li>Motivating athletes</li>
-                  <li>Facilities management</li>
-                  <li>Setting up / tearing down facilities</li>
-                  <li>Distinguishing the need of various athletes</li>
-                  <li>Implementing protocol for treating injured athletes</li>
-                  <li>Ensuring athletes excecute assigned lifts / workouts safely</li>
-                </ul>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
         <div className="card resume-cards">
@@ -163,11 +93,15 @@ export default function ResumePage() {
                 Bachelor of Science (B.S.) - Exercise Physiology: University of
                 Mary Hardin - Baylor
               </li>
-              <li>Coding Bootcamp - The University of Texas at Austin</li>
-              <li>AZ-900 - Microsoft Certified: Azure Fundementals</li>
+              <li>
+                Coding Bootcamp - The University of Texas at Austin
+              </li>
+              <li>
+                AZ-900 - Microsoft Certified: Azure Fundementals
+              </li>
               <li>
                 CLF-CO2 - AWS Certified Cloud Practicioner (Expected Completion
-                Date: January 2025)
+                Date: Late February 2025)
               </li>
             </ul>
           </div>

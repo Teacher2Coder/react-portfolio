@@ -163,11 +163,13 @@ body {
 .work-experience {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .job-card {
     margin: 5px;
-    width: 75%
+    width: 30%;
 
 }
 
@@ -195,7 +197,18 @@ body {
         width: 75%;
         margin-bottom: 10px;
     }
+
+    .job-card {
+        width: 45%;
+    }
 }
+
+@media screen and (max-width: 1024px) {
+    .job-card {
+        width: 45%;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .project {
@@ -204,7 +217,12 @@ body {
     .professional {
         width: 40%;
     }
+    
+    .job-card {
+        width: 100%;
+    }
 }
+
 
 @media screen and (max-width: 464px) {
     .project {

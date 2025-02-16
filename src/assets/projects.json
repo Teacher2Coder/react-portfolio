@@ -26,7 +26,7 @@
   {
     "projectName": "CMS Style Blog",
     "image": "/cms-blog.png",
-    "description": "This application allows users to create, edit and delte their own blog posts while also reading other blog posts written by other users!",
+    "description": "This application allows users to create, edit and delete their own blog posts while also reading other blog posts written by other users!",
     "technologies": ["Handlebars", "Node.js", "Express", "Sequelize"],
     "type": "Web Service",
     "repo": "https://github.com/Teacher2Coder/cms-blog",

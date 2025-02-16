@@ -30,13 +30,10 @@ export default function ResumePage() {
           </header>
           <div className="card-body">
             <p>
-              Full-Stack web developer fully equipped to collaborate on the
-              development of various web applications. Capable of leveraging
-              front-end technologies (HTML, CSS, JavaScript, React) as well as
-              back-end technologies (Node.js, SQL, Sequelize, MongoDB,
-              Mongoose). Proficient in Agile Web Development, working on
-              projects in a team setting, and delivering high-quality,
-              responsive, and scalable web applications.
+              Result Oriented, Full-Stack Software Developer with a track record of leading teams during quick turnaround projects with a collaborative approach and focus on quality.
+              Self-starter with a strong emphasis on leveraging front end and back end technologies to deliver measurable business results while navigating through constant changes in the application development lifecycle.
+              High energy, driven individual with a ‘roll-up-your-sleeves’ approach to delivering high quality, responsive, and scalable full-stack applications.
+              Proven competency in Agile Development Methodology Framework with solid business understanding and a unique ability for finding creative solutions when options are limited.
             </p>
           </div>
         </div>
@@ -46,14 +43,14 @@ export default function ResumePage() {
           </header>
           <div className="card-body">
             <ul className="resume-list">
-              <li>Problem Solving</li>
-              <li>Small group leadership</li>
-              <li>Effective Communication</li>
-              <li>Proactively carrying out assigned duties</li>
-              <li>Creating a healthy collaborative atmosphere</li>
-              <li>JavaScript, jQuery, Node.js, SQL, MongoDB, React</li>
+              <li>Proficient knowledge of cloud networking, databases, compute, deployment, integration, scaling, and automation</li>
+              <li>Intermediate proficiency with relational and non-relational databases (PostgreSQL, MongoDB, CosmosDB, etc.)</li>
+              <li>Working knowledge of security protocols (Active Directory, JSON Web Token, OAuth)</li>
+              <li>Intermediate proficiency in JavaScript frameworks (React, Node, Express, etc.)</li>
+              <li>Designing and developing software utilizing industry-standard best practices</li>
+              <li>Leading small teams through SDLC including deployments of PWAs</li>
               <li>Maintaining and contributing to GitHub Repositories</li>
-              <li>Google Applications (Docs, Sheets, Slides, App Scripts)</li>
+              <li>General understanding of C# and .NET Framework</li>
             </ul>
           </div>
         </div>
@@ -101,7 +98,28 @@ export default function ResumePage() {
               </li>
               <li>
                 CLF-CO2 - AWS Certified Cloud Practicioner (Expected Completion
-                Date: Late February 2025)
+                Date: March 2025)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="card resume-cards">
+          <header className="card-header">
+            <h4>Past and Present Affiliations</h4>
+          </header>
+          <div className="card-body">
+            <ul className="resume-list">
+              <li>
+                Austin .NET User Group
+              </li>
+              <li>
+                Austin AWS Users
+              </li>
+              <li>
+                Azure Austin
+              </li>
+              <li>
+                React ATX
               </li>
             </ul>
           </div>

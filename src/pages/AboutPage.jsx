@@ -27,7 +27,7 @@ export default function AboutPage() {
           <h2>All about me!!!</h2>
         </header>
         <div className="card-body about-content">
-          <img className="professional" src="./professional.JPG"></img>
+          <img className="professional" src="./me.jpeg"></img>
           <p className="about-text">
             Hello! My name is Ethan and I am a public school educator who is
             learning how to code! I have worked in public education for the past

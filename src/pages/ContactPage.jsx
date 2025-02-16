@@ -8,7 +8,6 @@ export default function ContactPage() {
 
   document.title = "Ethan Owens - " + currentPage;
 
-
   return (
     <div>
       <div className="card contact-card">

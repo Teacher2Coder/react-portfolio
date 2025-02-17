@@ -48,22 +48,6 @@ export default function AboutPage() {
           Thank you for visiting my portfolio!
         </footer>
       </div>
-      <div 
-        className="badge-base LI-profile-badge" 
-        data-locale="en_US" 
-        data-size="large" 
-        data-theme="light" 
-        data-type="HORIZONTAL" 
-        data-vanity="ethan-owens-717b16199" 
-        data-version="v1"
-        style={{ marginTop: "20px", alignSelf: "center" }}
-      >
-        <a 
-          className="badge-base__link LI-simple-link" 
-          href="https://www.linkedin.com/in/ethan-owens-717b16199?trk=profile-badge"
-        >
-        </a>
-      </div>
     </div>
   );
 }

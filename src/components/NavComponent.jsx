@@ -28,6 +28,14 @@ export default function NavComponent({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Home')} 
           href='/'
         >
+          <img 
+            src='./EO.svg'
+            alt='logo'
+            width='30'
+            height='30'
+            className='d-inline-block align-top'
+            style={{ marginRight: '10px' }} 
+          />
           Ethan Owens
         </Navbar.Brand>
         <NavbarToggle aria-controls='navbar-nav' onClick={() => setExpanded(!expanded)} />

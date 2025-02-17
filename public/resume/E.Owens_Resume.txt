@@ -1,0 +1,73 @@
+﻿Ethan Owens  
+7312 Morning Sunrise Cv | Austin, TX 78735 | (361) 676 - 0939
+ethan.owens4@gmail.com | www.linkedin.com/in/ethan-owens-717b16199
+
+
+        
+|Profile          
+
+
+Result Oriented, Full-Stack Software Developer with a track record of leading teams during quick turnaround projects with a collaborative approach and focus on quality. Self-starter with a strong emphasis on leveraging front end and back end technologies to deliver measurable business results while navigating through constant changes in the application development lifecycle. High energy, driven individual with a ‘roll-up-your-sleeves’ approach to delivering high quality, responsive, and scalable full-stack applications. Proven competency in Agile Development Methodology Framework with solid business understanding and a unique ability for finding creative solutions when options are limited. 
+
+
+
+
+|Skills and Competencies
+  
+
+* Proficient knowledge of cloud networking, databases, compute, deployment, integration, scaling, and automation
+* Intermediate proficiency with relational and non-relational databases (PostgreSQL, MongoDB, CosmosDB, etc.)
+* Working knowledge of security protocols (Active Directory, JSON Web Token, OAuth, etc.)
+* Intermediate proficiency in JavaScript frameworks (React, Node, Express, etc.)
+* Designing and developing software utilizing industry-standard best practices
+* Leading small teams through SDLC including deployments of PWAs
+* Maintaining and contributing to GitHub Repositories
+* General understanding of C# and .NET Framework
+
+
+     
+|Relevant Work Experience  
+
+
+INDEPENDENT CONTRACTOR, Austin, TX
+Freelance Software Developer, 2024 – Present
+Software developer responsible for designing, building, and configuring applications to meet business requirements and platform design specifications. Strong experience in Object Oriented Design principles, applying software design patterns, working with stakeholders and end users to build solutions for Non-profit and For-Profit Organizations. Developed Proof-of-Concept projects to validate new architectures and solutions for planning and refactoring existing code base.
+Responsibilities / experience include:
+* Leveraging cloud technologies (AWS and Azure)
+* Utilization of GitHub Actions for CI/CD and automation workflows
+* Designing, developing, and maintaining new software products for robustness and scalability
+* Development of innovative and efficient application solutions in order to meet client requirements
+* Staying current with the latest industry trends and technologies to drive innovation and business value
+
+
+AUSTIN ISD / HAYS CONSOLIDATED ISD – Austin, TX
+Secondary Instructor, 2020 – Present
+Responsibilities included instructing Advanced Placement and Academic Social Studies courses, creating and monitoring course credit recovery activities, and actively collaborating in Professional Learning Committee activities. Coaching responsibilities included coaching wide receivers, analyzing team statistics, managing video databases and team application utilization metrics. Produced team highlights weekly and individual highlights periodically for athletes.
+Responsibilities / experience include:
+* Utilization of AI tools in curriculum management and creation
+* Designing and implementing Strength and Conditioning programs
+* Monitoring student success data for analysis in broader team settings
+* Uploading, sharing, and distributing video footage amongst various teams
+* Communicating relevant student needs, behavioural issues and successes to their families
+
+
+
+
+|Education and Certifications  
+
+
+Bachelor of Science (B.S.) – Exercise Physiology: University of Mary Hardin-Baylor – Belton, TX
+Coding Boot Camp – The University of Texas at Austin – Austin, TX
+AZ-900 – Microsoft Certified: Azure Fundamentals
+CLF-C02 – AWS Certified Cloud Practitioner (Expected Completion Date: March 2025)
+
+
+
+
+|Past and Present Affiliations  
+
+
+Austin .NET User Group
+Austin AWS Users
+Azure Austin
+React ATX

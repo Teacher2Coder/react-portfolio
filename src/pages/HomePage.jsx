@@ -10,17 +10,22 @@ export default function HomePage() {
   document.title = "Ethan Owens - " + currentPage;
 
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column" }}>
       <div className="card home-cards">
         <header className="card-header">
           <h1>Welcome to my Portfolio powered by React!</h1>
         </header>
         <div className="card-body">
           <p>
-            Thank you so much for visiting my portfolio! To learn more about me,
-            click on the About tab. To send me a message, click the Contact tab.
-            To see some of my work, click on the Portfolio tab. To see my
-            resume, click on the Resume tab.
+            Thank you so much for visiting my portfolio! I am a full-stack
+            developer with a passion for creating dynamic and responsive web
+            applications. I have experience in a variety of technologies and
+            frameworks, and I am always eager to learn more. In this portfolio,
+            you will find a selection of my projects, each showcasing my skills
+            and creativity. I hope you enjoy exploring them as much as I enjoyed
+            building them. If you have any questions or would like to discuss
+            potential collaborations, please feel free to reach out. I look
+            forward to connecting with you!
           </p>
         </div>
       </div>

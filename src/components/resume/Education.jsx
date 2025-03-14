@@ -3,7 +3,7 @@ const education = [
   "Coding Bootcamp: The University of Texas at Austin",
   "AZ-900: Microsoft Certified: Azure Fundamentals",
   "CLF-CO2: AWS Certified Cloud Practitioner",
-  "DVF-C03: AWS Certified Developer - Associate (Expected Completion Date: MAy 2025)",
+  "DVF-C03: AWS Certified Developer - Associate (Expected Completion Date: May 2025)",
 ];
 
 const Education = () => {

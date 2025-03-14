@@ -7,7 +7,7 @@ ethan.owens4@gmail.com | www.linkedin.com/in/ethan-owens-717b16199
 |Profile          
 
 
-Result Oriented, Full-Stack Software Developer with a track record of leading teams during quick turnaround projects with a collaborative approach and focus on quality. Self-starter with a strong emphasis on leveraging front end and back end technologies to deliver measurable business results while navigating through constant changes in the application development lifecycle. High energy, driven individual with a ‘roll-up-your-sleeves’ approach to delivering high quality, responsive, and scalable full-stack applications. Proven competency in Agile Development Methodology Framework with solid business understanding and a unique ability for finding creative solutions when options are limited. 
+Result Oriented, Full-Stack Software Developer with a track record of leading teams during quick turnaround projects with a collaborative approach and focus on quality. Self-starter with a strong emphasis on leveraging front end and back end technologies to deliver measurable business results while navigating through constant changes in the application development lifecycle. High energy, driven individual with a ‘roll-up-your-sleeves’ approach to delivering high quality, responsive, and scalable full-stack applications. Proven competency in Agile Development Methodology Framework with solid business understanding and a unique ability for finding creative solutions when options are limited.
 
 
 
@@ -25,7 +25,8 @@ Result Oriented, Full-Stack Software Developer with a track record of leading te
 * General understanding of C# and .NET Framework
 
 
-     
+
+
 |Relevant Work Experience  
 
 
@@ -56,12 +57,11 @@ Responsibilities / experience include:
 |Education and Certifications  
 
 
-Bachelor of Science (B.S.) – Exercise Physiology: University of Mary Hardin-Baylor – Belton, TX
-Coding Boot Camp – The University of Texas at Austin – Austin, TX
-AZ-900 – Microsoft Certified: Azure Fundamentals
-CLF-C02 – AWS Certified Cloud Practitioner (Expected Completion Date: March 2025)
-
-
+Bachelor of Science (B.S.): Exercise Physiology: University of Mary Hardin-Baylor – Belton, TX
+Coding Boot Camp: The University of Texas at Austin – Austin, TX
+AZ-900: Microsoft Certified: Azure Fundamentals
+CLF-C02: AWS Certified Cloud Practitioner
+DVF-C03: AWS Certified Developer – Associate (Expected completion date: May 2025)
 
 
 |Past and Present Affiliations  

@@ -1,8 +1,9 @@
 const education = [
-  "Bachelor of Science (B.S.) - Exercise Physiology: University of Mary Hardin - Baylor",
-  "Coding Bootcamp - The University of Texas at Austin",
-  "AZ-900 - Microsoft Certified: Azure Fundamentals",
-  "CLF-CO2 - AWS Certified Cloud Practitioner (Expected Completion Date: March 2025)",
+  "Bachelor of Science (B.S.): Exercise Physiology: University of Mary Hardin - Baylor",
+  "Coding Bootcamp: The University of Texas at Austin",
+  "AZ-900: Microsoft Certified: Azure Fundamentals",
+  "CLF-CO2: AWS Certified Cloud Practitioner",
+  "DVF-C03: AWS Certified Developer - Associate (Expected Completion Date: MAy 2025)",
 ];
 
 const Education = () => {

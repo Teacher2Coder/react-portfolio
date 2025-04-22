@@ -108,6 +108,18 @@
     "url": null
   },
   {
+    "projectName": "README.md Generator in C#",
+    "image": "/questions-cs.png",
+    "description": "This app allows a user to create a README.md file with relative ease by just answering a few questions in the command line! This was a refactoring of the original README.md Generator in JavaScript in C# using the .NET Framework.",
+    "technologies": ["C#", ".NET Framework"],
+    "type": "CLI Tool",
+    "repo": "https://github.com/Teacher2Coder/README-CS",
+    "deployedPage": "",
+    "featured": false,
+    "deployed": false,
+    "url": null
+  },
+  {
     "projectName": "Weather Tracker",
     "image": "/weather.png",
     "description": "This app allows users to get weather data for any city that a user decides to search for from a third party API!",

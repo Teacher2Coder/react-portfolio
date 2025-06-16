@@ -2,7 +2,7 @@
 This application will serve as my new and imporved portfolio built using React. Users can learn more about me, view my work and download my resume.
 
 ### Link to deployed webpage:
-https://ethanowens.netlify.app
+https://ethanowens.dev
  
 ## Table of Contents
 * [Installation](#installation)

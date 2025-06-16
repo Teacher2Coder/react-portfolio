@@ -1,5 +1,18 @@
 const experiences = [
   {
+    company: "Silencer Shop - Austin, Texas",
+    title: "Software Engineer",
+    dates: "2025 - Present",
+    info: "Software engineer responsible for maintaining and scaling legacy applications under a highly regulated industry as customer demand constantly increases. Collaborated with Sales, Compliance and Marketing teams to improve business facing applications as well as e-commerce web applications. Employed Agile-Web development strategies in tandem with senior engineers within their implemented CI/CD pipelines.",
+    responsibilities: [
+      "Updated core business platform to improve customer service processing time by 15%",
+      "Improved internal audit platform by adding feature sets to federal compliance report generators",
+      "Leveraged domain knowledge to ensure enterprise order management system complies with strict federal regulations",
+      "Technologies used: C#, JavaScript, TypeScript, .NET Core 8 Framework, WinForms, React Native, Entity Framework",
+      "Integrated ERP system with third party platform for skew level synchronization with internal order management system"
+    ],
+  },
+  {
     company: "Independant Contractor - Austin, Texas",
     title: "Freelance Software Developer",
     dates: "2024 - Present",

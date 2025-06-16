@@ -47,7 +47,7 @@ const Download = () => {
             .pdf
           </a>
           <a
-            href="/resume/E.Owens_Resume.zip"
+            href="/resume/E.Owens_Resume.html"
             id='download'
             className="btn btn-secondary"
             style={{ width: "100%", marginBottom: "10px" }}

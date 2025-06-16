@@ -6,7 +6,7 @@ const skills = [
   "Designing and developing software utilizing industry-standard best practices",
   "Leading small teams through SDLC including deployments of PWAs",
   "Maintaining and contributing to GitHub Repositories",
-  "General understanding of C# and .NET Framework"
+  "Strong understanding of C# and .NET Framework"
 ];
 
 const Skills = () => {
